@@ -931,31 +931,39 @@ async def get_form_stats(slug: str):
 
         topic_rows = stats_result.data or []
         topics = []
-        total_responses = 0
+        unique_students = set()
 
         for row in topic_rows:
-            num_students = int(row.get("num_students") or 0)
-            correct_pct = row.get("correct_pct") or 0
+            # The SQL function returns: total_questions, correct_answers, accuracy_percentage, total_responses
+            total_responses = int(row.get("total_responses") or 0)
+            accuracy_pct = row.get("accuracy_percentage") or 0
             try:
-                correct_pct = float(correct_pct)
+                accuracy_pct = float(accuracy_pct)
             except (TypeError, ValueError):
-                correct_pct = 0.0
-
-            total_responses += num_students
+                accuracy_pct = 0.0
 
             topics.append({
                 "topic_id": row.get("topic_id"),
                 "topic_name": row.get("topic_name"),
-                "num_students": num_students,
-                "num_questions": int(row.get("num_questions") or 0),
-                "correct_pct": correct_pct
+                "num_students": total_responses,  # Total individual responses per topic
+                "num_questions": int(row.get("total_questions") or 0),
+                "correct_pct": accuracy_pct
             })
+
+        # Get unique student count from form_sessions
+        sessions_result = db.client.table("form_sessions")\
+            .select("student_id")\
+            .eq("form_id", form_uuid)\
+            .not_.is_("completed_at", "null")\
+            .execute()
+
+        unique_student_count = len(set(s["student_id"] for s in (sessions_result.data or []) if s.get("student_id")))
 
         return {
             "form_id": form["form_id"],
             "slug": slug,
             "form_title": form["title"],
-            "total_responses": total_responses,
+            "total_responses": unique_student_count,  # Number of students who completed the form
             "topics": topics
         }
 
@@ -963,6 +971,8 @@ async def get_form_stats(slug: str):
         raise
     except Exception as e:
         print(f"[FORMS] Error fetching stats for form {slug}: {e}")
+        import traceback
+        traceback.print_exc()
         raise HTTPException(status_code=500, detail="Failed to fetch form stats")
 
 

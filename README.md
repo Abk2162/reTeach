@@ -29,6 +29,27 @@ Transform your course syllabus into personalized diagnostic assessments in minut
 
 ---
 
+## 🎥 Demo Video
+
+Click to play a short demo of reTeach in action:
+
+<video
+  src="./demo_video.mp4"
+  controls
+  preload="metadata"
+  width="100%"
+  title="reTeach Demo"
+  poster="./Thumbnail_img.png"
+  style="border-radius:12px; outline: none;"
+>
+  Your browser does not support the video tag. You can
+  <a href="./demo_video.mp4">download and watch the demo video</a> instead.
+</video>
+
+If the video does not appear on GitHub, open the link above to view it in the GitHub video player. For local viewing, place the file at `./demo_video.mp4` (repository root).
+
+---
+
 ## 🚀 Workflow
 
 ### 1. Upload Syllabus & Extract Topics
