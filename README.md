@@ -1,4 +1,5 @@
-<img src="./public/logo.png" alt="reTeach Logo" width="200"/>
+<div align="center">
+  <img src="./public/logo.png" alt="reTeach Logo" width="200"/>
 
 # reTeach
 
@@ -10,6 +11,10 @@
 ### AI-Powered Personalized Learning Platform
 
 Transform your course syllabus into personalized diagnostic assessments in minutes. Using AI, reTeach generates topic-specific questions, analyzes student performance, and creates customized study plans.
+
+📄 **[View Project Documentation (PDF)](https://drive.google.com/file/d/1xn81j0eBpcDcXCmZQWaYKdU7ZxKzbclV/view?usp=sharing)**
+
+</div>
 
 ---
 
