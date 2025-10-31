@@ -1,0 +1,33 @@
+# FastAPI & Server
+fastapi==0.115.0
+uvicorn[standard]==0.32.0
+pydantic==2.9.2
+pydantic-settings==2.6.0
+email-validator==2.2.0
+python-multipart==0.0.9
+
+# Database
+supabase==2.9.0
+
+# LLM & AI
+anthropic==0.39.0
+
+# Utilities
+python-dotenv==1.0.1
+httpx==0.27.2
+tenacity==9.0.0  # Retry logic
+
+# PDF Processing
+pdfplumber==0.11.0  # PDF text extraction
+pypdf==4.0.1  # Fallback PDF library
+
+# Terminal UI
+rich==13.7.0  # Beautiful terminal output
+
+# Optional: For advanced semantic search
+# sentence-transformers==2.2.2  # Embeddings for RAG
+# numpy==1.24.3  # Vector operations
+
+# Development
+pytest==8.3.3
+pytest-asyncio==0.24.0

@@ -1,0 +1,98 @@
+{
+  "generated_at": "2025-10-16T14:31:26.947469",
+  "weak_topics": [
+    {
+      "topic_id": "t_002",
+      "topic_name": "Geometry",
+      "total": 5,
+      "correct": 2,
+      "percentage": 40.0
+    },
+    {
+      "topic_id": "t_004",
+      "topic_name": "Calculus",
+      "total": 5,
+      "correct": 2,
+      "percentage": 40.0
+    },
+    {
+      "topic_id": "t_006",
+      "topic_name": "Systems of Equations",
+      "total": 5,
+      "correct": 2,
+      "percentage": 40.0
+    }
+  ],
+  "steps": [
+    {
+      "step": 1,
+      "topic": "Geometry",
+      "priority": "MEDIUM",
+      "current_score": 40.0,
+      "resources": [
+        {
+          "type": "khan_academy",
+          "title": "Basic Geometry Introduction",
+          "url": "https://www.khanacademy.org/math/basic-geo",
+          "estimated_minutes": 45
+        },
+        {
+          "type": "khan_academy",
+          "title": "High School Geometry",
+          "url": "https://www.khanacademy.org/math/geometry",
+          "estimated_minutes": 60
+        }
+      ],
+      "estimated_minutes": 105
+    },
+    {
+      "step": 2,
+      "topic": "Calculus",
+      "priority": "MEDIUM",
+      "current_score": 40.0,
+      "resources": [
+        {
+          "type": "khan_academy",
+          "title": "Calculus 1 Course",
+          "url": "https://www.khanacademy.org/math/calculus-1",
+          "estimated_minutes": 60
+        },
+        {
+          "type": "khan_academy",
+          "title": "Derivatives Introduction",
+          "url": "https://www.khanacademy.org/math/calculus-1/cs1-derivatives-definition-and-basic-rules",
+          "estimated_minutes": 30
+        },
+        {
+          "type": "khan_academy",
+          "title": "Limits and Continuity",
+          "url": "https://www.khanacademy.org/math/calculus-1/cs1-limits-and-continuity",
+          "estimated_minutes": 45
+        }
+      ],
+      "estimated_minutes": 135
+    },
+    {
+      "step": 3,
+      "topic": "Systems of Equations",
+      "priority": "MEDIUM",
+      "current_score": 40.0,
+      "resources": [
+        {
+          "type": "khan_academy",
+          "title": "Systems of equations introduction",
+          "url": "https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:systems-of-equations/x2f8bb11595b61c86:introduction-to-systems-of-equations/v/solving-systems-of-equations-by-graphing",
+          "estimated_minutes": 15
+        },
+        {
+          "type": "khan_academy",
+          "title": "Solving systems of equations by elimination",
+          "url": "https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:systems-of-equations/x2f8bb11595b61c86:solving-systems-elimination/v/solving-systems-of-equations-by-elimination",
+          "estimated_minutes": 20
+        }
+      ],
+      "estimated_minutes": 35
+    }
+  ],
+  "total_estimated_minutes": 275
+}

@@ -1,0 +1,147 @@
+{
+  "quiz_id": "quiz_20251016_143135",
+  "generated_at": "2025-10-16T14:31:35.169188",
+  "focus_topics": [
+    "Geometry",
+    "Calculus",
+    "Systems of Equations"
+  ],
+  "question_count": 9,
+  "questions": [
+    {
+      "id": "q_001",
+      "topic": "Geometry",
+      "stem": "What is the area of a triangle with base 8 units and height 6 units?",
+      "options": [
+        "24 square units",
+        "48 square units",
+        "14 square units",
+        "16 square units"
+      ],
+      "answerIndex": 0,
+      "rationale": "The area of a triangle is calculated using the formula A = (1/2)bh, where b is the base and h is the height. Here, A = (1/2)(8)(6) = 24 square units.",
+      "difficulty": "med",
+      "bloom": "apply"
+    },
+    {
+      "id": "q_002",
+      "topic": "Geometry",
+      "stem": "In a circle, what is the relationship between the radius (r) and diameter (d)?",
+      "options": [
+        "d = 2r",
+        "r = 2d",
+        "d = r\u00b2",
+        "r = d\u00b2"
+      ],
+      "answerIndex": 0,
+      "rationale": "The diameter of a circle is always twice the length of its radius. This fundamental relationship is expressed as d = 2r, where d is diameter and r is radius.",
+      "difficulty": "med",
+      "bloom": "understand"
+    },
+    {
+      "id": "q_003",
+      "topic": "Geometry",
+      "stem": "What is the sum of interior angles in a regular pentagon?",
+      "options": [
+        "360\u00b0",
+        "450\u00b0",
+        "540\u00b0",
+        "720\u00b0"
+      ],
+      "answerIndex": 2,
+      "rationale": "For any polygon with n sides, the sum of interior angles is (n-2) \u00d7 180\u00b0. For a pentagon (n=5), this is (5-2) \u00d7 180\u00b0 = 3 \u00d7 180\u00b0 = 540\u00b0.",
+      "difficulty": "med",
+      "bloom": "apply"
+    },
+    {
+      "id": "q_004",
+      "topic": "Calculus",
+      "stem": "What is the derivative of x^3 with respect to x?",
+      "options": [
+        "x^2",
+        "3x^2",
+        "3x^3",
+        "x^3/3"
+      ],
+      "answerIndex": 1,
+      "rationale": "Using the power rule, when differentiating x^n, multiply by the exponent and reduce the power by 1. For x^3, multiply by 3 and reduce power to 2, giving 3x^2.",
+      "difficulty": "med",
+      "bloom": "apply"
+    },
+    {
+      "id": "q_005",
+      "topic": "Calculus",
+      "stem": "Which function is an antiderivative of cos(x)?",
+      "options": [
+        "cos(x)",
+        "-cos(x)",
+        "sin(x)",
+        "-sin(x)"
+      ],
+      "answerIndex": 2,
+      "rationale": "The derivative of sin(x) is cos(x), therefore sin(x) is an antiderivative of cos(x). This can be verified by differentiating sin(x).",
+      "difficulty": "med",
+      "bloom": "understand"
+    },
+    {
+      "id": "q_006",
+      "topic": "Calculus",
+      "stem": "What is the limit of (1 + 1/n)^n as n approaches infinity?",
+      "options": [
+        "1",
+        "2",
+        "e",
+        "\u221e"
+      ],
+      "answerIndex": 2,
+      "rationale": "This is the fundamental limit that defines the mathematical constant e (approximately 2.71828). As n gets larger, this expression converges to e.",
+      "difficulty": "med",
+      "bloom": "analyze"
+    },
+    {
+      "id": "q_007",
+      "topic": "Systems of Equations",
+      "stem": "Which method is most efficient for solving a system where one equation is y = 2x + 1 and the other is y = -3x + 4?",
+      "options": [
+        "Elimination",
+        "Substitution",
+        "Graphing",
+        "Cramer's Rule"
+      ],
+      "answerIndex": 2,
+      "rationale": "When both equations are in slope-intercept form (y = mx + b), graphing is most efficient as you can quickly plot both lines and find their intersection point without any algebraic manipulation.",
+      "difficulty": "med",
+      "bloom": "analyze"
+    },
+    {
+      "id": "q_008",
+      "topic": "Systems of Equations",
+      "stem": "A system of equations has no solution. What is true about the graphical representation of this system?",
+      "options": [
+        "Lines are parallel",
+        "Lines are perpendicular",
+        "Lines are identical",
+        "Lines intersect once"
+      ],
+      "answerIndex": 0,
+      "rationale": "Parallel lines never intersect, which geometrically represents a system with no solution (inconsistent system). The lines have the same slope but different y-intercepts.",
+      "difficulty": "med",
+      "bloom": "understand"
+    },
+    {
+      "id": "q_009",
+      "topic": "Systems of Equations",
+      "stem": "If a system of two linear equations has infinitely many solutions, what must be true about the equations?",
+      "options": [
+        "They are perpendicular",
+        "They are the same line",
+        "They have different slopes",
+        "They have no intercepts"
+      ],
+      "answerIndex": 1,
+      "rationale": "When two linear equations represent the same line (identical equations), every point on that line satisfies both equations, resulting in infinitely many solutions (dependent system).",
+      "difficulty": "med",
+      "bloom": "analyze"
+    }
+  ]
+}
