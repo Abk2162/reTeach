@@ -33,6 +33,9 @@ Transform your course syllabus into personalized diagnostic assessments in minut
 
 Click to play a short demo of reTeach in action:
 
+<!-- GitHub does not render <video> tags in README. Use the clickable thumbnail below to open the raw MP4. -->
+[![Demo Video Thumbnail](./Thumbnail_img.png)](https://github.com/Abk2162/reTeach/raw/main/demo_video.mp4)
+
 <video
   src="./demo_video.mp4"
   controls
@@ -43,10 +46,11 @@ Click to play a short demo of reTeach in action:
   style="border-radius:12px; outline: none;"
 >
   Your browser does not support the video tag. You can
-  <a href="./demo_video.mp4">download and watch the demo video</a> instead.
+  <a href="./demo_video.mp4">download and watch the demo video</a> or
+  <a href="https://github.com/Abk2162/reTeach/raw/main/demo_video.mp4">view the raw file on GitHub</a> instead.
 </video>
 
-If the video does not appear on GitHub, open the link above to view it in the GitHub video player. For local viewing, place the file at `./demo_video.mp4` (repository root).
+If the video does not appear on GitHub, click the thumbnail or the raw link above to open it. For local viewing, place the file at `./demo_video.mp4` (repository root).
 
 ---
 
